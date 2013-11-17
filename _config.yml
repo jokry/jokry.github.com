@@ -1,0 +1,7 @@
+name: Jokry
+markdown: redcarpet
+pygments: true
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
+name: Jokry
+url: http://www.jokry.com
