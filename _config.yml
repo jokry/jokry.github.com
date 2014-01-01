@@ -5,4 +5,4 @@ redcarpet:
     extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 name: Jokry
 url: http://www.jokry.com
-permalink: /:categories/:title.html
+permalink: /:categories/:title
