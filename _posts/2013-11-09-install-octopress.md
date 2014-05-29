@@ -4,6 +4,8 @@ title: Octopress介绍与安装
 published: true
 ---
 
+    备注：目前博客已经转向Jekyll
+
 将自己的博客转向Octopress，利用Github托管并自定义域名。安装过程中也遇到一些问题，通过本篇文章记录下来，希望对要转向Octopress的朋友有帮助。
 
 1.  什么是Octopress
@@ -13,7 +15,7 @@ published: true
 5.  自定义域名
 6.  导出wordpress文章到Octopress
 
-### [](https://github.com/jokry/jokry.github.com/blob/source/_posts/2012-03-08-octopress.markdown#1-octopress)1. 什么是Octopress
+### 1. 什么是Octopress
 
 Octopress是使用Ruby语言编写的博客系统。相比wordpress，它拥有一些独特的特点：
 
@@ -26,7 +28,7 @@ Octopress是使用Ruby语言编写的博客系统。相比wordpress，它拥有�
 
 如果你想更具体的了解Octopress，可以阅读[官方介绍](http://octopress.org/)或者xdite的[Why Octopress?](http://blog.xdite.net/posts/2011/10/07/what-is-octopress/)
 
-### [](https://github.com/jokry/jokry.github.com/blob/source/_posts/2012-03-08-octopress.markdown#2-octopress)2. 安装与发布Octopress
+### 2. 安装与发布Octopress
 
 如果你不了解Ruby以及Git，不建议急着上手安装Octopress。安装步骤你可以参考[官网文档](http://octopress.org/docs/setup/)，也可以按照以下步骤来安装。
 
@@ -94,7 +96,7 @@ git push origin source
 
 通过以上步骤就完成了安装与发布，这时候github会发邮件给你，github pages服务需要一会才能生效。生效后，可通过username.github.com来访问你的octopress blog。
 
-### [](https://github.com/jokry/jokry.github.com/blob/source/_posts/2012-03-08-octopress.markdown#3-)3. 安装中可能出现的问题
+### 3. 安装中可能出现的问题
 
 ​a. rake版本错误
 
@@ -167,15 +169,15 @@ end
 gem 'sinatra', '1.2.6'
 ```
 
-### [](https://github.com/jokry/jokry.github.com/blob/source/_posts/2012-03-08-octopress.markdown#4-markdown)4. 通过Markdown语法写文章
+### 4. 通过Markdown语法写文章
 
 [Markdown](http://daringfireball.net/projects/markdown/)语法是一种轻量级的标记语言，只需要10min就能掌握。它将使你更专注与写作。
 
-#### [](https://github.com/jokry/jokry.github.com/blob/source/_posts/2012-03-08-octopress.markdown#41-markdown)4.1 Markdown编辑器
+#### 4.1 Markdown编辑器
 
 Mac OS 推荐使用 [mouapp](http://mouapp.com/) Linux 推荐使用 VIM 或 [Sublime](http://www.sublimetext.com/) 加上 [Markdown-Preview](http://lucifr.com/2012/02/20/sublime-text-2-markdown-%E9%A2%84%E8%A7%88%E6%8F%92%E4%BB%B6/#disqus_thread) Windows 推荐使用 Sublime 或[MarkdownPad](http://markdownpad.com/)
 
-#### [](https://github.com/jokry/jokry.github.com/blob/source/_posts/2012-03-08-octopress.markdown#42-octopress)4.2 编写Octopress文章
+#### 4.2 编写Octopress文章
 
 ​a. 新建文章
 
@@ -201,7 +203,7 @@ categories:
 
 编写完成后，再次按照2.h步骤开始，进行生成、预览、发布等。具体你可以参考[这里](http://octopress.org/docs/blogging/)。
 
-### [](https://github.com/jokry/jokry.github.com/blob/source/_posts/2012-03-08-octopress.markdown#5-)5. 自定义域名
+### 5. 自定义域名
 
 在项目里的\*source\*文件夹新建名为CNAME的文件，在CNAME里写上你的域名。也可通过命令外执行：
 
@@ -213,7 +215,7 @@ $ echo 'yourdomain.com' >> source/CNAME
 
 解析需要一定时间生效，不要太着急。更详细的信息可参考[Github Pages](http://pages.github.com/)
 
-### [](https://github.com/jokry/jokry.github.com/blob/source/_posts/2012-03-08-octopress.markdown#6-wordpressoctopress)6. 导出wordpress文章到Octopress
+### 6. 导出wordpress文章到Octopress
 
 通过这个[wordpress blog -\> markdown](https://gist.github.com/1796343)可以将wordpress的导出文件转化为对应的markdown文件。将生成的文件放在`_deploy`文件夹下，再次生成发布。
 
