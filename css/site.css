@@ -312,3 +312,7 @@ a:hover {
     margin: 36px -60px;
   }
 }
+
+.entry-content img{
+  margin: 0 auto;
+}
