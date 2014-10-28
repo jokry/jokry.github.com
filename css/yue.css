@@ -9,11 +9,11 @@
 
 
 .yue {
-  font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
-  color: #333332;
+  font: 400 16px/1.62 HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
 }
 .yue ::selection {
-  background-color: rgba(0,0,0,0.2);
+  background-color: #ccc;
 }
 .yue h1,
 .yue h2,
@@ -21,12 +21,12 @@
 .yue h4,
 .yue h5,
 .yue h6 {
-  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "SimSun", sans-serif;
   color: #222223;
 }
 .yue h1 {
-  font-size: 1.8em;
+  font-size: 1.4em;
   margin: 0.67em 0;
+  color: #000;
 }
 .yue > h1 {
   margin-top: 0;
@@ -52,6 +52,7 @@
 .yue p {
   margin-top: 0;
   margin-bottom: 1.64em;
+  line-height: 1.8em;
 }
 .yue a {
   color: #111;
@@ -122,6 +123,7 @@
 .yue ol {
   margin: 0 0 24px 6px;
   padding-left: 16px;
+  line-height: 1.8em;
 }
 .yue ul {
   list-style-type: square;
@@ -155,7 +157,7 @@
 .yue code,
 .yue tt {
   color: #808080;
-  font-size: 0.96em;
+  font-size: 0.9em;
   background-color: #f9f9f7;
   padding: 1px 2px;
   margin: 0px 5px;

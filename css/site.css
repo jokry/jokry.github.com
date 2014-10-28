@@ -177,6 +177,8 @@ a:hover {
 
 .hentry .entry-title {
   text-align: center;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #EEEEEE;
 }
 .hentry .entry-meta {
   display: block;

@@ -14,6 +14,5 @@ published: true
 4. 善于通过数据验证、用户角色筛选用户需求、产品原则等方法确定对用户有价值的功能；
 5. 制定产品原则，建立产品信仰，同时利于团结产品团队，保持认知的一致性；
 
-以下是我制作的Xmind笔记，共享地址：http://www.xmind.net/m/W4ZK/
+Xmind笔记共享地址：http://www.xmind.net/m/W4ZK/
 
-<iframe id="xmindshare_embedviewer" src="http://www.xmind.net/embed/W4ZK?size=small" width="650px" height="800px" frameborder="0" scrolling="no"></iframe>
